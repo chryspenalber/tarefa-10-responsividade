@@ -39,17 +39,24 @@ header .menu ul li a {
 }
 
 /* Banner Home */
-.banner {
-    height: 80vh;
-    background: url('./images/agency.jpg') center/cover no-repeat;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
+.banner {   
     padding: 2rem;
 }
+
+.banner div {
+    padding-bottom: 2rem;
+}
+
+
+.img-banner {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: center;
+    background-repeat: no-repeat;
+}
+
 
 /* Seções */
 section {
